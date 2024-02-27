@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="StringTasksSpec" tests="7" skipped="0" failures="2" errors="0" timestamp="2022-12-09T12:32:29" hostname="LAPTOP-P49HOH0P" time="0.215">
+  <properties/>
+  <testcase name="5: is palindrome [input: null, expectedResult: false, #0]" classname="StringTasksSpec" time="0.051"/>
+  <testcase name="5: is palindrome [input: , expectedResult: false, #1]" classname="StringTasksSpec" time="0.0"/>
+  <testcase name="5: is palindrome [input: A nut for a jar of tuna, expectedResult: true, #2]" classname="StringTasksSpec" time="0.0"/>
+  <testcase name="5: is palindrome [input: Stressed desserts, expectedResult: true, #3]" classname="StringTasksSpec" time="0.0"/>
+  <testcase name="5: is palindrome [input: Madam, in Eden, Im Adam., expectedResult: true, #4]" classname="StringTasksSpec" time="0.0"/>
+  <testcase name="5: is palindrome [input: Hello world!, expectedResult: false, #5]" classname="StringTasksSpec" time="0.156">
+    <failure message="Condition not satisfied:&#10;&#10;result == expectedResult&#10;|      |  |&#10;true   |  false&#10;       false&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+result == expectedResult
+|      |  |
+true   |  false
+       false
+
+	at StringTasksSpec.5: is palindrome(StringTasksSpec.groovy:89)
+</failure>
+  </testcase>
+  <testcase name="5: is palindrome [input: Good morning, expectedResult: false, #6]" classname="StringTasksSpec" time="0.002">
+    <failure message="Condition not satisfied:&#10;&#10;result == expectedResult&#10;|      |  |&#10;true   |  false&#10;       false&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+result == expectedResult
+|      |  |
+true   |  false
+       false
+
+	at StringTasksSpec.5: is palindrome(StringTasksSpec.groovy:89)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

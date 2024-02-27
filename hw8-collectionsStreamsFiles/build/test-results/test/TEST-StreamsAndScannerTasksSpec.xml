@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="StreamsAndScannerTasksSpec" tests="19" skipped="0" failures="2" errors="0" timestamp="2023-03-04T09:22:44" hostname="LAPTOP-P49HOH0P" time="0.57">
+  <properties/>
+  <testcase name="4: calc words count in file test_input_1.txt" classname="StreamsAndScannerTasksSpec" time="0.154"/>
+  <testcase name="4: calc words count in file test_input_2.txt" classname="StreamsAndScannerTasksSpec" time="0.003"/>
+  <testcase name="4: should fail for incorrect file test_input_wrong_name_1.txt" classname="StreamsAndScannerTasksSpec" time="0.012"/>
+  <testcase name="4: should fail for incorrect file test_input_wrong_name_2.txt" classname="StreamsAndScannerTasksSpec" time="0.0"/>
+  <testcase name="4: should fail for null file" classname="StreamsAndScannerTasksSpec" time="0.001"/>
+  <testcase name="5: calc words count in file test_input_1.txt without stop words" classname="StreamsAndScannerTasksSpec" time="0.3">
+    <failure message="Condition not satisfied:&#10;&#10;result == expectedResult&#10;|      |  |&#10;358    |  353&#10;       false&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+result == expectedResult
+|      |  |
+358    |  353
+       false
+
+	at StreamsAndScannerTasksSpec.5: calc words count in file #fileName without stop words(StreamsAndScannerTasksSpec.groovy:55)
+</failure>
+  </testcase>
+  <testcase name="5: calc words count in file test_input_2.txt without stop words" classname="StreamsAndScannerTasksSpec" time="0.013">
+    <failure message="Condition not satisfied:&#10;&#10;result == expectedResult&#10;|      |  |&#10;103    |  101&#10;       false&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+result == expectedResult
+|      |  |
+103    |  101
+       false
+
+	at StreamsAndScannerTasksSpec.5: calc words count in file #fileName without stop words(StreamsAndScannerTasksSpec.groovy:55)
+</failure>
+  </testcase>
+  <testcase name="5: should fail for incorrect file test_input_wrong_name_1.txt" classname="StreamsAndScannerTasksSpec" time="0.001"/>
+  <testcase name="5: should fail for incorrect file test_input_wrong_name_2.txt" classname="StreamsAndScannerTasksSpec" time="0.001"/>
+  <testcase name="5: should fail for incorrect stop words file" classname="StreamsAndScannerTasksSpec" time="0.001"/>
+  <testcase name="6: calc words count with first upper case letter in file test_input_1.txt" classname="StreamsAndScannerTasksSpec" time="0.005"/>
+  <testcase name="6: calc words count with first upper case letter in file test_input_2.txt" classname="StreamsAndScannerTasksSpec" time="0.002"/>
+  <testcase name="6: should fail for incorrect file test_input_wrong_name_1.txt" classname="StreamsAndScannerTasksSpec" time="0.0"/>
+  <testcase name="6: should fail for incorrect file test_input_wrong_name_2.txt" classname="StreamsAndScannerTasksSpec" time="0.0"/>
+  <testcase name="7: calc words count with first upper case letter in file test_input_1.txt" classname="StreamsAndScannerTasksSpec" time="0.029"/>
+  <testcase name="7: calc words count with first upper case letter in file test_input_2.txt" classname="StreamsAndScannerTasksSpec" time="0.002"/>
+  <testcase name="7: should fail for incorrect file test_input_wrong_name_1.txt" classname="StreamsAndScannerTasksSpec" time="0.001"/>
+  <testcase name="7: should fail for incorrect file test_input_wrong_name_2.txt" classname="StreamsAndScannerTasksSpec" time="0.001"/>
+  <testcase name="8: calc words count with first upper case letter in file #fileName" classname="StreamsAndScannerTasksSpec" time="0.023"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
